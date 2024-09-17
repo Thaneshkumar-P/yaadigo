@@ -25,3 +25,24 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-box-shadow {
+  box-shadow: rgb(0, 0, 0, 0.04) 0px 5px 22px, rgba(0, 0, 0, 0.03) 0px 0px 10px 0.5px;
+}
+
+.font-color {
+  color: #171717b5;
+}
+
+.theme-color {
+  color: #a03dfcb3;
+}
+
+.theme-bg {
+  background-color: #a03dfcb3;
+}
+
+.card-days {
+  background: linear-gradient(180deg, #ae5afc39, #ffffff);
+}
+

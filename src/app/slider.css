@@ -1,0 +1,27 @@
+.custom-prev,
+.custom-next {
+  cursor: pointer;
+  background: hsla(0, 0%, 100%, .7);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  z-index: 10;
+  transition: background-color 0.3s;
+  border: 2px;
+}
+
+/* .custom-prev:hover,
+.custom-next:hover {
+  background-color: #555;
+} */
+
+.custom-prev {
+  left: -20px;
+  
+}
+
+.custom-next {
+  right: -20px;
+  /* backdrop-filter: blur(2px); */
+}

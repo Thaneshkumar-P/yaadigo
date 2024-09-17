@@ -1,6 +1,7 @@
 import Logo from '@/app/assets/yaadigo.webp'
 import Image from "next/image";
 import SearchBar from './SearchBar';
+import { Suspense } from "react";
 
 export default function TopNav() {
   return (
@@ -8,7 +9,9 @@ export default function TopNav() {
       <header className=''>
         <div className='py-3 px-20 flex justify-between border-b border-b-gray-300 items-center'>
           <Image src={Logo} alt="Yaadigo" width={60} />
-          <SearchBar placeholder='Search for Destination'/>
+          <Suspense>
+            <SearchBar placeholder='Search for Destination'/>
+          </Suspense>
           <div className='flex items-center gap-5 font-[500]'>
             <select>
               <option>IND</option>
